@@ -25,6 +25,10 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   background-color: var(--charcoal-grey);
+  /* min-height: 100vh; */
+  display: grid;
+  grid-template-columns: 1fr;
+  place-content: center;
 }
 
 .subscription-page {
@@ -174,8 +178,16 @@ body {
 }
 
 @media (min-width: 500px) {
+  body {
+    min-height: 100vh;
+  }
+
   .subscription-page {
-    padding: 7%;
+    padding: 0 7%;
+  }
+
+  .subscription-text {
+    padding: 5%;
   }
 
   .success-message__container {
@@ -202,10 +214,6 @@ body {
 }
 
 @media (min-width: 700px) {
-  body {
-    padding: 15.4% 0;
-  }
-
   .subscription-page {
     grid-template-columns: 1fr 1fr;
     padding: 1.5em;
