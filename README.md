@@ -6,15 +6,13 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -30,7 +28,7 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### Screenshots
 
 ![](./screenshots/desktop_empty.png)
 ![](./screenshots/desktop_error.png)
@@ -41,9 +39,9 @@ Users should be able to:
 
 ### Links
 
-- [Frontend Mentor solution](https://www.frontendmentor.io/solutions/responsive-tip-calculator-app-Dgneqi3k7t)
-- [GitHub repo](https://github.com/RoksolanaVeres/tip-calculator-app)
-- [Live Site](https://roksolanaveres.github.io/tip-calculator-app/)
+- [Frontend Mentor solution](https://www.frontendmentor.io/solutions/responsive-newsletter-signup-form-with-success-message-A_oijN3AO9)
+- [GitHub repo](https://github.com/RoksolanaVeres/newsletter-sign-up-with-success-message)
+- [Live Site](https://roksolanaveres.github.io/newsletter-sign-up-with-success-message/)
 
 ## My process
 
