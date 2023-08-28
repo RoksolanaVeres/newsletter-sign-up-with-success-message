@@ -11,12 +11,16 @@ const dismissMessageButton = document.querySelector(".dismiss-button");
 const subscriptionEmailContainer = document.querySelector(
   ".subscription-email__container"
 );
+const overlaySpinnerContainer = document.querySelector(
+  ".overlay-spinner-container"
+);
 
 // functions
 function init() {
   emailInput.value = "";
   subscriptionPage.style.display = "grid";
   successMessageContainer.style.display = "none";
+  overlaySpinnerContainer.style.display = "none";
   hideError();
 }
 
@@ -45,7 +49,8 @@ function getValidEmail() {
     hideError();
     setTimeout(() => {
       showSuccessMessage(email);
-    }, 700);
+    }, 1000);
+    overlaySpinnerContainer.style.display = "grid";
   }
 }
 
